@@ -1,0 +1,94 @@
+.patient-container {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  background-color: rgba(219, 219, 219, 0.507);
+}
+.patient-container .patient-left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.patient-container .patient-right {
+  width: 69.2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.patient-container .patient-right .patient-wrap {
+  /* border: 1px solid black; */
+  padding: 10px;  
+}
+
+.patient-wrap .title{
+  font-size: 0.8em;
+  font-weight: 700;
+  color: gray;
+}
+.patient-wrap .text{
+  font-size: 0.77em;
+}
+.patient-container .patient-left,
+.patient-container .patient-right {
+  /* border: 1px solid black; */
+  height: 100%;
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+}
+.patient-left .patientimg {
+  /* border: 1px solid black; */
+  height: 40%;
+  width: 40%;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+.patient-left .patientimg img {
+  /* background-color: orange; */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.patient-left .bigtext {
+  font-size: 1em;
+  font-weight: 700;
+  /* border: 1px solid black; */
+}
+.patient-left .smalltext {
+  font-size: 0.7em;
+  color: #bbbbbb;
+  /* border: 1px solid black; */
+}
+.patient-left .wrapper {
+  display: flex;
+  width: 80%;
+  /* border: 1px solid red; */
+  padding: 5px;
+}
+.patient-left .wrapper .left,
+.patient-left .wrapper .right {
+  /* border: 1px solid black; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.patient-left .wrapper .left {
+  border-right: 1px solid #ccc;
+}
+
+.patient-left .sendmsg {
+  margin: 5px;
+  padding: 7px 0;
+  width: 80%;
+  font-size: 0.8em;
+  font-weight: 700;
+  border: 1px solid rgba(204, 204, 204, 0.63);
+  border-radius: 3px;
+  background-color: inherit;
+}
+
+.patient-container .patient-right {
+}

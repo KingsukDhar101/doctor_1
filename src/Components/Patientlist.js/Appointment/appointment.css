@@ -1,0 +1,145 @@
+.appointment-container {
+  padding: 15px;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.appointment-container .header {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-size: 0.9em;
+  background-color: #f2f5f9;
+  border-radius: 4px;
+}
+.appointment-container .header .tab {
+  /* border: 1px solid red; */
+  height: 80%;
+  padding: 5px;
+  font-size: 0.9em;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: gray;
+}
+.appointment-container .header .tab.active {
+  background-color: white;
+  color: blue;
+}
+
+.appointment-container .content-container {
+  /* border: 1px solid red; */
+  flex: 1;
+  margin-top: 5px;
+  height: 100%;
+}
+
+.content-container .content-header {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 5px 10px;
+  background-color: #f2f5f9;
+  border-bottom: 1px solid #ccc;
+}
+.content-container .content-header .text {
+}
+.content-container .content-header .content-box {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: white;
+  color: gray;
+}
+.content-container .content-header .content-box .icon {
+  padding: 5px;
+}
+.content-container .content-header .content-box .text {
+}
+
+.content-container .content {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  flex: 1;
+  height: calc(100% - 35px);
+  background-color: #f2f5f9;
+}
+.content-container .content .content-box {
+  background-color: white;
+  height: 60px;
+  width: inherit;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-left: 40px;
+  margin-right: 10px;
+  font-size: 0.9em;
+}
+.content-box .line{
+  height: 70%;
+  border: 1px solid #ccc;
+}
+.content-box .date-time,
+.content-box .box,
+.content-box .note-box {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  flex: 1;
+}
+.content-box .date-time{
+  padding-left: 20px;
+  justify-content: center;
+}
+.content-box .date-time .date{
+  font-size: 1.3em;
+}
+.content-box .date-time .time{
+  font-size: 0.8em;
+  color: gray;
+}
+.content-box .box{
+  align-items: center;
+  justify-content: center;
+}
+.content-box .bigtext{
+  font-size: 1em;
+  font-weight: 600;
+}
+.content-box .smalltext{
+  font-size: 0.8em;
+  color: gray;
+}
+.content-box .bigtext.md{
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.content-box .box.sm{
+  padding: 0 10px;
+}
+.content-box .note-box {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+  font-weight: 600;
+}
+.content-box .note-box .icon{
+  margin-right: 5px;
+}

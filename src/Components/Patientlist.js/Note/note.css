@@ -1,0 +1,62 @@
+.note-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+.note-container .note-top {
+  /* border: 1px solid black; */
+  flex: 1;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8em;
+}
+.note-top .bigtext {
+  font-weight: 600;
+}
+
+.note-top .link {
+  font-weight: 600;
+  color: blue;
+}
+.note-container .note-middle {
+  /* border: 1px solid black; */
+  flex: 3;
+  /* height: 100%; */
+  background-color: rgb(242,245,249);
+  padding: 5px 10px;
+}
+.note-container .note-middle .smalltext {
+  font-size: 0.8em;
+}
+.note-container .note-bottom {
+  /* border: 1px solid black; */
+  flex: 1.2;
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
+.note-bottom .title {
+  font-size: 0.9em;
+}
+.note-bottom .note-wrap {
+  font-size: 0.8em;
+  color: rgba(128, 128, 128, 0.685);
+}
+.note-bottom .note-wrap .left {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+  height: 100%;
+}
+.note-bottom .note-wrap .left .icon {
+  margin-right: 5px;
+  height: 50%;
+  /* border: 1px solid red; */
+  color: blue;
+}
+.note-bottom .note-wrap .right {
+}
